@@ -105,6 +105,10 @@ p {
     transition: transform 0.8s ease-in;
 }
 
+.product-desc i {
+    color: #E02C6D;
+}
+
 .see-more-btn {
     float: right;
     margin-right: 135px;
@@ -299,6 +303,10 @@ footer {
     .product,
     .tips-idea {
         margin: 0px 0px 10px 0px;
+    }
+
+    .product-desc i {
+        color: #E02C6D;
     }
 
     .see-more-btn {
