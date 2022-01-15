@@ -62,21 +62,25 @@ p {
 }
 
 /* second and third section */
-.collections {
+.collections,
+.tips {
     margin: 100px;
 }
 
-.collection-title {
+.collection-title,
+.tips-title {
     text-align: center;
 }
 
-.products {
+.products,
+.tips-ideas {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
 }
 
-.product {
+.product,
+.tips-idea {
     width: 350px;
     border: 1px groove;
     padding: 10px;
@@ -85,7 +89,8 @@ p {
     box-shadow: 1px 1px 5px gray;
 }
 
-.products img {
+.products img,
+.tips-idea img {
     width: 100%;
 }
 
@@ -170,7 +175,8 @@ footer {
         margin: 0;
     }
 
-    .collections {
+    .collections,
+    .tips {
         margin: 0px;
         width: 95%;
         padding: 0;
@@ -178,19 +184,22 @@ footer {
         overflow: hidden;
     }
 
-    .collection-title {
+    .collection-title,
+    .tips-title {
         text-align: center;
         margin: 0;
         padding: 0;
     }
 
-    .products {
+    .products,
+    .tips-ideas {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .product {
+    .product,
+    .tips-idea {
         margin: 0px 0px 10px 0px;
     }
 
@@ -264,7 +273,8 @@ footer {
         margin: 0;
     }
 
-    .collections {
+    .collections,
+    .tips {
         margin: 0px;
         width: 95%;
         padding: 0;
@@ -272,7 +282,8 @@ footer {
         overflow: hidden;
     }
 
-    .collection-title {
+    .collection-title,
+    .tips-title {
         text-align: center;
         margin: 0;
         padding: 0;
