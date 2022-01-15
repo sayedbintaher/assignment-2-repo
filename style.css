@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,500;0,700;1,600&family=Raleway&display=swap');
 
+/* style for tags */
 body {
     margin: 0px;
     padding: 0px;
@@ -12,10 +13,12 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 
+/* header style */
 .logo {
     margin: 100px;
 }
 
+/* first section */
 .flexible-container {
     display: flex;
     margin: 100px;
@@ -58,6 +61,7 @@ p {
     border: 1px solid lightgray;
 }
 
+/* second and third section */
 .collections {
     margin: 100px;
 }
@@ -105,7 +109,7 @@ p {
 
 }
 
-
+/* footer styles */
 footer {
     background: midnightblue;
     overflow: hidden;
@@ -162,7 +166,7 @@ footer {
 
     .right-container img {
         width: 100%;
-        height: 400px;
+        height: 350px;
         margin: 0;
     }
 
@@ -192,7 +196,7 @@ footer {
 
     .see-more-btn {
         margin: 20px 0px;
-        float: left;
+        float: right;
 
     }
 
@@ -214,6 +218,7 @@ footer {
     }
 }
 
+/* media screen for tablet */
 @media only screen and (min-width:688px) and (max-width: 992px) {
     .logo {
         text-align: center;
