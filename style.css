@@ -289,13 +289,15 @@ footer {
         padding: 0;
     }
 
-    .products {
+    .products,
+    .tips-ideas {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .product {
+    .product,
+    .tips-idea {
         margin: 0px 0px 10px 0px;
     }
 
