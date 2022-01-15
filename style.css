@@ -194,6 +194,10 @@ footer {
         margin: 0px 0px 10px 0px;
     }
 
+    .product-desc i {
+        color: #E02C6D;
+    }
+
     .see-more-btn {
         margin: 20px 0px;
         float: right;
